@@ -359,7 +359,13 @@ nav .fly-item{
     z-index: 1;
 }
 
-
+/* Header -------
+* c. Header main Departments Category----- */
+.header-main{
+    background-color: var(--secondary-dark-color);
+    padding: 1.5em 0;
+    margin-bottom: 2em;
+}
 
 
 
@@ -410,6 +416,10 @@ nav .fly-item{
         background-color: var(--light-bg-color);
         box-shadow: rgb(0 0 0 /20%) 0 30px 20px --30px;
         z-index: 100;
+        display: none;
+    }
+    nav li.has-child:hover .mega{
+        display: block;
     }
 
     nav .mega .wrapper{
